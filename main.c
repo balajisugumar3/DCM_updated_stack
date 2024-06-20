@@ -12,7 +12,7 @@ void main()
     printf("Enter the Elements (in hex format): ");
     for(int i=0; i<8; i++)
     {
-        scanf("%x", &PduInfoType[i]);        //00 02 10 03 00 00 00 00 //00 02 27 03 00 00 00 00 //00 02 27 04 12 11 00 00
+        scanf("%x", &PduInfoType[i]);        //00 02 10 03 00 00 00 00 //00 02 27 03 00 00 00 00 //00 04 27 04 22 11 00 00 //00 03 22 F2 91 00 00 00
     }
 
     printf("\nIn Main: \nThe above SDU is : ");
